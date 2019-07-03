@@ -1,0 +1,245 @@
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+	#personalweb #home {
+		height: 650px;
+		text-align: center;
+		padding: 0 100px;
+	}
+	#personalweb #navbar {
+		height: 50px;
+		text-align: center;
+		background-color: rgba(000, 000, 000, 0.5);
+	}
+	#personalweb #navbar #taylogo{
+		width: 13%;
+	}
+	#personalweb #navbar #logoname {
+	    display: flex;
+	    padding-left: 40px;
+	    width: 43vw;
+	}
+	#personalweb #home span {
+		font-size: 2vw;
+		color: white;
+	}
+	#personalweb #home li.active {
+		border-bottom: 5px solid #5bc0de;
+	}
+	#personalweb #home li:hover {
+		color: black;
+		background-color: blue;
+		border-bottom: 5px solid #5bc0de;
+	}
+	#personalweb #home li a,a {
+		color: white;
+	}
+	#personalweb #home #profile {
+		height: 40px;
+		width: 40px;
+		margin-top: 5px;
+	}
+	#personalweb #home #myname {
+		text-align: center;
+		margin: auto;
+		padding-top: 25vh;
+	}
+	#personalweb #home #myname h2 {
+		color: white;
+		margin-bottom: 0px;
+	}
+	#personalweb #home #myname h1 {
+		font-size: 4vw;
+		color: white;
+		text-align: center;
+		margin-top: 2px;
+	}
+	#personalweb #home #myname h1 {
+		color: #62c8f1;
+		text-align: center;
+	}
+	#personalweb #home #myname h1 span {
+		text-align-last: center;
+	}
+	#personalweb #home #myname h4 {
+		letter-spacing: 4px;
+		margin: 5px;
+		color: white;
+	}
+	#personalweb #home #myname hr {
+		border: 1.5px solid white;
+		text-align: center; 
+		margin-bottom: 0; 
+		margin-top: 0; 
+		width: 30vw; 
+		padding: 0;
+	}
+	#personalweb #home #myname button {
+	    font-size: 1.5vw;
+	    margin-top: 20px;
+	    padding: 5px 15px;
+	    border: none;
+	}
+	#personalweb #about {
+		height: auto;
+	}
+	#personalweb #about #divabout {
+	    position: relative;
+	    top: -18vh;
+	    left: 5vw;
+	    padding: 0px 30px;
+	    background-color: white;
+	    width: 90%;
+	    border: 1px solid black;
+	    box-shadow: 5px 10px #888888; 
+	}
+	#personalweb #about #divabout h1 {
+		border: 0;
+		padding: 10px;
+		text-align: center;
+	}
+	#personalweb #about #divabout a {
+		color: blue;
+	}
+	#personalweb #about #divabout a:hover {
+		color: blue;
+	}
+	#personalweb #about #pic{
+		text-align: center;
+	}
+	#personalweb #about.sticky {
+		position: sticky;
+		top: 0;
+		width: 150px;
+	}
+	#personalweb #about #aboutpic {
+		width: 90%;
+		height: auto;
+	}
+	#personalweb #about .aboutme {
+		text-indent: 3em;
+		text-align: justify;
+		padding-right: 10px;
+	}
+	#personalweb #skills {
+		background-color: #2222;
+		height: auto;
+		padding: 5vh 100px;
+	}
+	#personalweb #skills h1 {
+		border: 0;
+		padding: 10px;
+	}
+	#personalweb #skills .ms {
+	    width: 80%;
+	    height: 76%;
+	    margin-top: 20px;
+	    padding-top: 9px;
+	}
+	#personalweb #skills b.percent {
+		
+	    font-size: 1.5vw;
+	    color: #cd4242;
+	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+		width:200px;
+		height:200px;
+		margin-left: 33px;
+		text-align: center;
+		border-radius:50%;
+		position:relative;
+		overflow:hidden;
+	}
+	#personalweb #skills #wordoverlay, #personalweb #skills #exceloverlay, 
+	#personalweb #skills #pptxoverlay, #personalweb #skills #coreloverlay {
+		position:absolute;
+	  left: 0;
+	  bottom:0;
+	  text-align:center;
+	  width:200px;
+	  height:100px;
+	  line-height:100px;
+	  background-color: rgba(255,255,255,0.5);
+	}
+	#personalweb #skills .language {
+	    width: 80%;
+	    height: 76%;
+	    margin-top: 20px;
+	    padding-top: 9px;
+	}
+	#personalweb #skills #html, #personalweb #skills #css, 
+	#personalweb #skills #bootstrap, #personalweb #skills #php{
+	  width:200px;
+	  height:200px;
+	  margin-left: 33px;
+	  text-align: center;
+	  border-radius:50%;
+	  position:relative;
+	  overflow:hidden;
+	}
+	#personalweb #skills #htmloverlay, #personalweb #skills #cssoverlay, 
+	#personalweb #skills #bootstrapoverlay, #personalweb #skills #phpoverlay{
+	  position:absolute;
+	  left: 0;
+	  bottom:0;
+	  text-align:center;
+	  width:200px;
+	  height:100px;
+	  line-height:100px;
+	  background-color: rgba(255,255,255,0.5);
+	}
+	#personalweb #portfolio {
+		height: 400px;
+		padding: 5px 100px;
+	}
+	#personalweb #portfolio h1 {
+		border: 0;
+		padding: 10px;
+	}
+	#personalweb #portfolio #content {
+		text-align: center;
+	}
+	#personalweb #portfolio .port {
+		width: 90%;
+		height: 90%;
+		margin: 10px;
+	}
+	#personalweb #portfolio .port1 {
+		width: 90%;
+		height: 130px;
+		margin: 10px;
+	}
+	#personalweb #contact {
+		height: auto;
+		padding: 5px 0px;
+	}
+	#personalweb #contact #title, #personalweb #contact #add  {
+		padding: 0px 100px;
+	}
+	#personalweb #contact #title h1 {
+		border: 0;
+	}
+	#personalweb #contact iframe {
+		width: 100%;
+		height: 500px;
+	}
+	#personalweb #footer {
+		background-color: gray;
+		height: 100px;
+		padding: 40px 100px;
+		color: white;
+	}
+
+@media (max-width: 425px) and (min-width: 298px) {
+	#personalweb #navbar #logoname {
+	    width: 86vw;
+	}
+	#personalweb #navbar #taylogo {
+	    width: 16%;
+	}
+	#personalweb #home span {
+    	font-size: 4vw;
+    	padding-left: 0;
+	}
+}
