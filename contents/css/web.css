@@ -6,13 +6,19 @@
 		text-align: center;
 		padding: 0 100px;
 	}
+	#personalweb #home #icon {
+		background-color: black;
+	}
+	#personalweb #home #icon .icon-bar {
+		background-color: white;
+	}
 	#personalweb #navbar {
 		height: 50px;
 		text-align: center;
 		background-color: rgba(000, 000, 000, 0.5);
 	}
 	#personalweb #navbar #taylogo{
-		width: 13%;
+		width: 9%;
 	}
 	#personalweb #navbar #logoname {
 	    display: flex;
@@ -190,7 +196,7 @@
 	  background-color: rgba(255,255,255,0.5);
 	}
 	#personalweb #portfolio {
-		height: 400px;
+		height: auto;
 		padding: 5px 100px;
 	}
 	#personalweb #portfolio h1 {
@@ -231,15 +237,187 @@
 		color: white;
 	}
 
-@media (max-width: 425px) and (min-width: 298px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+	#personalweb #navbar #taylogo {
+	    width: 13%;
+	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+	    margin-left: 0px;
+	}
+	#personalweb #skills #html, #personalweb #skills #css, 
+	#personalweb #skills #bootstrap, #personalweb #skills #php {
+    	margin-left: 0px;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+	#personalweb #home #myname {
+	    padding-top: 50vh;
+	}
 	#personalweb #navbar #logoname {
-	    width: 86vw;
+	    width: 35vw;
+	    padding: 0
 	}
 	#personalweb #navbar #taylogo {
-	    width: 16%;
+	    width: 20%;
+	    margin-right: 5px;
 	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+	    margin-left: 30px;
+	}
+	#personalweb #skills #html, #personalweb #skills #css, 
+	#personalweb #skills #bootstrap, #personalweb #skills #php {
+    	margin-left: 30px;
+    }
+	#personalweb #home span {
+    	font-size: 3vw;
+    	padding-left: 0;
+	}
+	#personalweb #contact h3 {
+	    font-size: 15px;
+	}
+}
+@media (min-width: 298px) and (max-width: 425px) {
 	#personalweb #home span {
     	font-size: 4vw;
     	padding-left: 0;
+	}
+	#personalweb #home #myname {
+	    padding-top: 30vh;
+	}
+	#personalweb #navbar #logoname {
+	    width: 86vw;
+	}
+	#personalweb #home #myname h1 {
+	    font-size: 6vw;
+	}
+	#personalweb #navbar #taylogo {
+	    width: 14%;
+	    margin-left: 20px;
+	    margin-right: 0px;
+	}
+	#personalweb #home #myname h4 {
+	    width: 48vw;
+	    margin-left: 0;
+	}
+	#personalweb #home #myname hr {
+	    margin: 0;
+	    width: 47vw;
+	}
+	#personalweb #home #myname button {
+	    font-size: 3vw;
+	}
+	#personalweb #home {
+	    height: 100vw;
+	}
+	#personalweb #about #aboutpic {
+	    width: 50%;
+	    margin: 10px auto;
+	}
+	#personalweb #about #divabout {
+		padding: 40px 30px;
+	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+    margin-left: 15px;
+}
+@media (min-width: 280px) and (max-width: 375px) {
+	#personalweb #home #myname {
+	    padding-top: 30vh;
+	}
+	#personalweb #home #myname h2 {
+	    font-size: 5vw;
+	}
+	#personalweb #home #myname h1 {
+	    font-size: 5vw;
+	}
+	#personalweb #home #myname h4 {
+	    width: 55vw;
+	    font-size: 3vw;
+	    margin-left: -25px;
+	}
+	#personalweb #home #myname hr {
+	    margin-left: -10px;
+	    width: 43vw;
+	}
+	#personalweb #navbar #logoname {
+	    width: 84vw;
+	}
+	#personalweb #about #divabout {
+	    padding-top: 0px;
+	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+	    margin-left: 0px;
+	}
+	#personalweb #skills #html, #personalweb #skills #css, 
+	#personalweb #skills #bootstrap, #personalweb #skills #php {
+    	margin-left: 0px;
+    }
+    #personalweb #contact #title h1 {
+    	font-size: 9vw;
+    }
+    #personalweb #contact h3 {
+	    font-size: 15px;
+	}
+}
+@media (min-width: 280px) and (max-width: 320px) {
+	#personalweb #home #myname {
+	    padding-top: 30vh;
+	}
+	#personalweb #home #myname h2 {
+	    font-size: 3vw;
+	}
+	#personalweb #home #myname h1 {
+	    font-size: 3vw;
+	}
+	#personalweb #home #myname h4 {
+	    width: 45vw;
+	    font-size: 3vw;
+	    margin-left: -25px;
+	}
+	#personalweb #home #myname hr {
+	    margin-left: -24px;
+	    width: 43vw;
+	}
+	#personalweb #navbar #logoname {
+	    width: 80vw;
+	}
+	#personalweb #about #divabout {
+	    padding-top: 0px;
+	}
+	#personalweb #skills #msword, #personalweb #skills #msexcel, 
+	#personalweb #skills #mspowerpoint, #personalweb #skills #corel {
+	    width: 100px;
+	    height: 100px;
+	    margin-left: 10px;
+	}
+	#personalweb #skills #wordoverlay, #personalweb #skills #exceloverlay, 
+	#personalweb #skills #pptxoverlay, #personalweb #skills #coreloverlay { 
+	   width: 100px;
+	   height: 50px;
+	   line-height: 50px;
+	}
+	#personalweb #skills #html, #personalweb #skills #css, 
+	#personalweb #skills #bootstrap, #personalweb #skills #php {
+    	width: 100px;
+	    height: 100px;
+	    margin-left: 10px;
+    }
+	#personalweb #skills #htmloverlay, #personalweb #skills #cssoverlay, 
+	#personalweb #skills #bootstrapoverlay, #personalweb #skills #phpoverlay{
+	  	width: 100px;
+	   	height: 50px;
+	   	line-height: 45px;
+	}
+	#personalweb #portfolio h3 {
+	    font-size: 5vw;
+	}
+    #personalweb #contact #title h1 {
+    	font-size: 7vw;
+    }
+    #personalweb #contact h3 {
+	    font-size: 15px;
 	}
 }
