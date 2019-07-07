@@ -84,7 +84,7 @@
 	#personalweb #home #myname button {
 	    font-size: 1.5vw;
 	    margin-top: 20px;
-	    padding: 5px 15px;
+	    padding: 5px 25px;
 	    border: none;
 	}
 	#personalweb #about {
@@ -296,6 +296,9 @@
 	    background-repeat: no-repeat;
 	    background-size: 100% 90%;
 	}	
+	#personalweb #home #myname {
+	    padding-top: 25vh;
+	}
 	#personalweb #navbar #taylogo {
 	    width: 18%;
 	}
@@ -307,6 +310,23 @@
 	}
 }
 @media (min-width: 298px) and (max-width: 425px) {
+	#personalweb #home {
+		height: 30em;
+	}
+	#personalweb #home #myname {
+		padding-top: 20vh;
+	}
+	#personalweb #home #myname h4 {
+	    letter-spacing: 3px;
+	    font-size: 10px;
+	}
+	#personalweb #home #myname h2 {
+	    font-size: 15px;
+	}
+	#personalweb #portfolio .port {
+	    width: 90%;
+	    height: 12em;
+	}
 	#personalweb #navbar {
 		margin-top: 0;
 	    width: 104%;
@@ -341,5 +361,17 @@
 
 }
 @media (min-width: 280px) and (max-width: 320px) {
-	
+	#personalweb #home {
+		padding: 0;
+		height: 20em;
+	}
+	#personalweb #navbar #taylogo {
+	    width: 50%;
+	}
+	#personalweb #contact .title .add p {
+		font-size: 0.7em;
+	}
+	#personalweb #contact .title .add h3 {
+		font-size: 0.8em;
+	}
 }
